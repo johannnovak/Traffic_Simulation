@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+	<CrossRoad>
+		<Name>C1</Name>
+		<PosX>600</PosX>
+		<PosY>100</PosY>
+	</CrossRoad>
+	<CrossRoad>
+		<Name>C2</Name>
+		<PosX>100</PosX>
+		<PosY>500</PosY>
+	</CrossRoad>
+	<CrossRoad>
+		<Name>C3</Name>
+		<PosX>600</PosX>
+		<PosY>500</PosY>
+	</CrossRoad>
+	<Road>
+		<Starting_CrossRoad>C1</Starting_CrossRoad>
+		<Ending_CrossRoad>C3</Ending_CrossRoad>
+	</Road>
+	<Road>
+		<Starting_CrossRoad>C3</Starting_CrossRoad>
+		<Ending_CrossRoad>C2</Ending_CrossRoad>
+	</Road>
+</map>
